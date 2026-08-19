@@ -1,1 +1,12 @@
-today i am reading up on how to create data plots on R, and all the different ways to use ggplot. there are multiple types of data plots such as, box plots, dot plots, histograms, and bar graphs. i am expecting to trial the experiment referenced in the article at home and get a sense for the code. tomorrow i want to work more on R, but i also need to study for my SAT! 8/12/26
+today i am reading up on how to create data plots on R, and all the different ways to use ggplot. there are multiple types of data plots such as, box plots, dot plots, histograms, and bar graphs. i am expecting to trial the experiment referenced in the article at home and get a sense for the code. 
+tomorrow i want to work more on R, but i also need to study for my SAT! 8/12/26
+
+i lied. i did not study. but! i am back. 
+    binwidth on geom_histogram controls the size of the histograms bars (bigger the number= more bars and vice versa)
+    density plot is a smoothed out version of a histogram used for continuous data (contains less detail but is more plesant on the eye to see data)
+    position = "fill" in geom bar fills in the histograms blank areas, useful for comparing destribution of data
+    labs() forces a change in label
+    if data gets cluttered by too many aesthetic mappings, split the data into facets (subplots to display one subset of data) USE facet_wrap then ~ and add category
+    LABELS ARE IMPORTANT!! error: two legends representing same data, make sure lab of the data is upper/lowercase
+    use ggsave(filename = "file") to save the r studio plot 
+thats it for today! i'll do chapter 2 of the article tommorow. 8/18/26
