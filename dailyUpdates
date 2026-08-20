@@ -1,7 +1,8 @@
-
-today i am reading up on how to create data plots on R, and all the different ways to use ggplot. there are multiple types of data plots such as, box plots, dot plots, histograms, and bar graphs. i am expecting to trial the experiment referenced in the article at home and get a sense for the code. 
+KEY: ~~~ = break to emphasize a new day
+~~~today i am reading up on how to create data plots on R, and all the different ways to use ggplot. there are multiple types of data plots such as, box plots, dot plots, histograms, and bar graphs. i am expecting to trial the experiment referenced in the article at home and get a sense for the code. 
 tomorrow i want to work more on R, but i also need to study for my SAT! 8/12/26
-i lied. i did not study. but! i am back. 
+
+~~~i lied. i did not study. but! i am back. 
     -binwidth on geom_histogram controls the size of the histograms bars (bigger the number= more bars and vice versa)
     -density plot is a smoothed out version of a histogram used for continuous data (contains less detail but is more plesant on the eye to see data)
     -position = "fill" in geom bar fills in the histograms blank areas, useful for comparing destribution of data
@@ -10,3 +11,25 @@ i lied. i did not study. but! i am back.
     -LABELS ARE IMPORTANT!! error: two legends representing same data, make sure lab of the data is upper/lowercase
     -use ggsave(filename = "file") to save the r studio plot 
 thats it for today! i'll do chapter 2 of the article tommorow. 8/18/26
+
+~~~new day.
+LESSON 2: "Workflow : basics"
+    -variables can be stored by "<-" to view the variable's value, type it again (keyboard shortcut: Alt + -)
+        EX: x <- 3 * 4
+            x
+            #> [1] 12
+    -combine multiple elements into a vector by adding c()
+    -seq() makes sequences 
+        EX: seq(from = 1, to = 10) OR seq(1, 10)
+    -parenthesis and quotations must come in pair
+Takeaway: Be careful about human error mistakes when naming and setting variables, use keyboard shortcuts, comment the "why" not the "how"
+
+LESSON 3: "Data Transformation"
+    -to use a function from R that is already used in an install package, use "packagename::fuctionname()"
+    -use View(flights) to view an entire data set (for the purpose of this example) or View(tibble_name)
+        DATA TYPES:
+        -<int> is integer
+        -<dbl> is double (real numbers)
+        -<chr> is character (strings)
+        -<dttm> for date-time
+i hope to finish article 3 tmrw, so this is the end of 8/20/26 
